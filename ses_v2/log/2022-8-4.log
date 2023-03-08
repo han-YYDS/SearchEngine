@@ -1,0 +1,94 @@
+2022-08-04 20:47:05,453 [INFO] 
+[src/../include/SearchEngineServer.h:doTaskThread:105] {"msgBody":"good","msgId":"2"}
+2022-08-04 20:47:05,453 [INFO] 
+[src/../include/SearchEngineServer.h:doTaskThread:142] 执行网页查询
+2022-08-04 20:47:05,454 [INFO] 
+[src/WebPageSearcher.cc:doQuery:28] good
+2022-08-04 20:47:06,753 [INFO] 
+[src/WebPage.cc:WebPage:28] <doc>
+    <docid>3</docid>
+    <url>/module2/data/3.xml</url>
+    <title>谈谈公司对员工的监控</title>
+    <content>谈谈公司对员工的监控。今天看到微博上有一个热点事件， 是一个关于某公司做的一个监控员工离职倾向的软件，从截图中可以看到员工访问招聘网站的次数，还有投递的简历以及搜索的关建词等等信息，通过这些信息分析员工的离职倾向。然后我发一个微博，说了一下，我以前工作过的公司无论外国公司还是中国公司都有这样的情况，所以，我想还是写篇文章详细地说一下，我对这种事情的看法。</content>
+</doc>
+2022-08-04 20:47:06,755 [INFO] 
+[src/WebPage.cc:WebPage:32] finished
+2022-08-04 20:47:06,755 [INFO] 
+[src/WebPage.cc:WebPage:28] <doc>
+    <docid>1</docid>
+    <url>/module2/data/1.xml</url>
+    <title>ETCD的内存问题</title>
+    <content>ETCD的内存问题。今天跟大家分享一个etcd的内存大量占用的问题，这是前段时间在我们开源软件Easegress中遇到的问题，问题是比较简单的，但是我还想把前因后果说一下，包括，为什么要用etcd，使用etcd的用户场景，包括etcd的一些导致内存占用比较大的设计，以及最后一些建议。</content>
+</doc>
+2022-08-04 20:47:06,756 [INFO] 
+[src/WebPage.cc:WebPage:32] finished
+2022-08-04 20:47:06,756 [INFO] 
+[src/WebPage.cc:WebPage:28] <doc>
+    <docid>2</docid>
+    <url>/module2/data/2.xml</url>
+    <title>一把梭：REST API全用POST</title>
+    <content>一把梭：REST API全用POST。写这篇文章的原因主要还是因为V2EX上的这个贴子，这个贴子中说—— “对接同事的接口，他定义的所有接口都是post请求，理由是https用post更安全，之前习惯使用 restful api ，如果说 https 只有 post 请求是安全的话？那为啥还需要 get 、put 、delete ？我该如何反驳他。”</content>
+</doc>
+2022-08-04 20:47:06,757 [INFO] 
+[src/WebPage.cc:WebPage:32] finished
+2022-08-04 20:47:06,757 [INFO] 
+[src/WebPageQuery.cc:doQuery:42] good
+2022-08-04 20:47:06,758 [INFO] 
+[src/WebPageQuery.cc:doQuery:135] {"queryWords":"g o o d ","results":"啊欧，没有相关的网页..."}
+2022-08-04 20:47:06,758 [INFO] 
+[src/WebPageSearcher.cc:doQuery:34] {"queryWords":"g o o d ","results":"啊欧，没有相关的网页..."}
+2022-08-04 20:47:16,945 [INFO] 
+[src/../include/SearchEngineServer.h:doTaskThread:105] {"msgBody":"food","msgId":"1"}
+2022-08-04 20:47:16,945 [INFO] 
+[src/../include/SearchEngineServer.h:doTaskThread:117] 执行关键字推荐
+2022-08-04 20:47:43,313 [INFO] 
+[src/../include/SearchEngineServer.h:doTaskThread:105] {"msgBody":"food","msgId":"1"}
+2022-08-04 20:47:43,313 [INFO] 
+[src/../include/SearchEngineServer.h:doTaskThread:117] 执行关键字推荐
+2022-08-04 20:48:03,365 [INFO] 
+[src/../include/SearchEngineServer.h:doTaskThread:105] {"msgBody":"good","msgId":"2"}
+2022-08-04 20:48:03,365 [INFO] 
+[src/../include/SearchEngineServer.h:doTaskThread:142] 执行网页查询
+2022-08-04 20:48:18,576 [INFO] 
+[src/../include/SearchEngineServer.h:doTaskThread:105] {"msgBody":"world","msgId":"2"}
+2022-08-04 20:48:18,576 [INFO] 
+[src/../include/SearchEngineServer.h:doTaskThread:142] 执行网页查询
+2022-08-04 20:48:18,577 [INFO] 
+[src/WebPageSearcher.cc:doQuery:28] world
+2022-08-04 20:48:19,849 [INFO] 
+[src/WebPage.cc:WebPage:28] <doc>
+    <docid>3</docid>
+    <url>/module2/data/3.xml</url>
+    <title>谈谈公司对员工的监控</title>
+    <content>谈谈公司对员工的监控。今天看到微博上有一个热点事件， 是一个关于某公司做的一个监控员工离职倾向的软件，从截图中可以看到员工访问招聘网站的次数，还有投递的简历以及搜索的关建词等等信息，通过这些信息分析员工的离职倾向。然后我发一个微博，说了一下，我以前工作过的公司无论外国公司还是中国公司都有这样的情况，所以，我想还是写篇文章详细地说一下，我对这种事情的看法。</content>
+</doc>
+2022-08-04 20:48:19,851 [INFO] 
+[src/WebPage.cc:WebPage:32] finished
+2022-08-04 20:48:19,851 [INFO] 
+[src/WebPage.cc:WebPage:28] <doc>
+    <docid>1</docid>
+    <url>/module2/data/1.xml</url>
+    <title>ETCD的内存问题</title>
+    <content>ETCD的内存问题。今天跟大家分享一个etcd的内存大量占用的问题，这是前段时间在我们开源软件Easegress中遇到的问题，问题是比较简单的，但是我还想把前因后果说一下，包括，为什么要用etcd，使用etcd的用户场景，包括etcd的一些导致内存占用比较大的设计，以及最后一些建议。</content>
+</doc>
+2022-08-04 20:48:19,852 [INFO] 
+[src/WebPage.cc:WebPage:32] finished
+2022-08-04 20:48:19,852 [INFO] 
+[src/WebPage.cc:WebPage:28] <doc>
+    <docid>2</docid>
+    <url>/module2/data/2.xml</url>
+    <title>一把梭：REST API全用POST</title>
+    <content>一把梭：REST API全用POST。写这篇文章的原因主要还是因为V2EX上的这个贴子，这个贴子中说—— “对接同事的接口，他定义的所有接口都是post请求，理由是https用post更安全，之前习惯使用 restful api ，如果说 https 只有 post 请求是安全的话？那为啥还需要 get 、put 、delete ？我该如何反驳他。”</content>
+</doc>
+2022-08-04 20:48:19,853 [INFO] 
+[src/WebPage.cc:WebPage:32] finished
+2022-08-04 20:48:19,853 [INFO] 
+[src/WebPageQuery.cc:doQuery:42] world
+2022-08-04 20:48:19,853 [INFO] 
+[src/WebPageQuery.cc:doQuery:135] {"queryWords":"w o r l d ","results":"啊欧，没有相关的网页..."}
+2022-08-04 20:48:19,853 [INFO] 
+[src/WebPageSearcher.cc:doQuery:34] {"queryWords":"w o r l d ","results":"啊欧，没有相关的网页..."}
+2022-08-04 20:48:28,285 [INFO] 
+[src/../include/SearchEngineServer.h:doTaskThread:105] {"msgBody":"world","msgId":"2"}
+2022-08-04 20:48:28,285 [INFO] 
+[src/../include/SearchEngineServer.h:doTaskThread:142] 执行网页查询
